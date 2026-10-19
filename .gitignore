@@ -1,0 +1,10 @@
+var/
+__pycache__/
+*.pyc
+.dev_secret_key
+
+# Local settings and backups: never commit these (they hold secret keys and passwords)
+deploy/.env
+deploy/backups/
+*.env
+!deploy/env.example
